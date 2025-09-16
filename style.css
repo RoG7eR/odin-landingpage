@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: 'Roboto';
+}
+
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background: #1f2937;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 900;
+    color: #e5e7eb;
+}
+
+.content {
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 32px;  
+}
+
+#awesome {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#para {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#content-bt {
+    background: #3882F6;
+    color: white;
+    border: #3882F6 2px solid;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#randomtext {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+/* This container creates the horizontal row */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Adds space between the cards */
+}
+
+/* This container stacks the box and subtext vertically */
+.card {
+  width: 150px; /* Match the width of your box */
+  text-align: center;
+}
+
+/* Your .box styling is good */
+.box {
+  border: 4px solid blue;
+  border-radius: 10px;
+  height: 150px; /* It's good practice for height and width to match for a square */
+  width: 150px;
+  margin-bottom: 8px; /* Adds space between the box and the text */
+}
+
+.subtext {
+  /* No special styling needed if .card has text-align: center */
+  font-size: 14px;
+  color: #555;
+}
+
+.quote {
+    background: #e5e7eb;
+    color: black;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#q1 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#judge {
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between; /* Pushes children to opposite ends */
+    align-items: center;
+    background: #3882F6;
+    color: #e5e7eb;
+    padding: 32px;
+    border-radius: 10px;
+    width: 800px;
+    height: 80px;
+    margin: auto;
+}
+
+#bt {
+    background: #3882F6;
+    color: white;
+    border: white 2px solid;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cta-h {
+    margin-bottom: 0;
+}
+
+#cta-p {
+    margin-top: 0;
+}
+
+.footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 16px;
+    margin-top: 16px;
+}
